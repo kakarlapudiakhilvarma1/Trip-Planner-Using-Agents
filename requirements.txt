@@ -1,0 +1,10 @@
+python-dotenv
+langgraph
+langchain-groq
+langchain-core
+pydantic
+streamlit
+typing
+langchain-google-genai
+fpdf
+pandas
