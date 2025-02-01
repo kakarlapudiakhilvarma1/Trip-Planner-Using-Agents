@@ -14,6 +14,28 @@ AI Trip Planner Pro is an advanced travel planning application that leverages ar
 - 📱 **User-Friendly Interface**: Clean, intuitive Streamlit web interface
 - 📄 **PDF Export**: Download your complete trip plan as a PDF
 
+## Project Structure
+
+```
+ai-trip-planner-pro/
+├── src/
+│   ├── trip_planner_app.py     # Core logic and LangGraph implementation
+│   └── trip_planner_app_ui.py  # Streamlit user interface
+├── requirements.txt            # Project dependencies
+├── .env                       # Environment variables
+└── README.md                  # Project documentation
+```
+
+## Dependencies
+
+- Python 3.8+
+- LangGraph
+- Streamlit
+- FPDF
+- Groq API
+- python-dotenv
+- Other dependencies listed in `requirements.txt`
+
 ## Installation
 
 1. Clone the repository:
@@ -72,28 +94,6 @@ streamlit run src/trip_planner_app_ui.py
 
 ![image](https://github.com/user-attachments/assets/b6e36cf8-13ad-4ef5-9935-58a07bb08b53)
 
-
-## Project Structure
-
-```
-ai-trip-planner-pro/
-├── src/
-│   ├── trip_planner_app.py     # Core logic and LangGraph implementation
-│   └── trip_planner_app_ui.py  # Streamlit user interface
-├── requirements.txt            # Project dependencies
-├── .env                       # Environment variables
-└── README.md                  # Project documentation
-```
-
-## Dependencies
-
-- Python 3.8+
-- LangGraph
-- Streamlit
-- FPDF
-- Groq API
-- python-dotenv
-- Other dependencies listed in `requirements.txt`
 
 ## Contributing
 
