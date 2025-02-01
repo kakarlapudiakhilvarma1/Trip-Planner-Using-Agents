@@ -1,4 +1,4 @@
-# AI Trip Planner Pro 🌍✈️
+# Trip Planner Using Agents 🌍✈️
 
 AI Trip Planner Pro is an advanced travel planning application that leverages artificial intelligence to create comprehensive, personalized travel itineraries. Built with LangGraph and Streamlit, it provides a seamless experience for planning your next adventure.
 
@@ -17,7 +17,7 @@ AI Trip Planner Pro is an advanced travel planning application that leverages ar
 ## Project Structure
 
 ```
-ai-trip-planner-pro/
+Trip-Planer-Using-Agents/
 ├── src/
 │   ├── trip_planner_app.py     # Core logic and LangGraph implementation
 │   └── trip_planner_app_ui.py  # Streamlit user interface
